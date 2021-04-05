@@ -36,3 +36,6 @@ Confirm the pop-up with the number of windigs.
 Wait for EAGLE to draw the coils.
 
 ![](images/ExampleLayout.png)
+
+
+Done!
