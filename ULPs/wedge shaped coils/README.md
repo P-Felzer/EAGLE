@@ -39,3 +39,7 @@ Wait for EAGLE to draw the coils.
 
 
 Done!
+
+
+## Close up of a single coil
+![](images/ExampleLayout2.png)
