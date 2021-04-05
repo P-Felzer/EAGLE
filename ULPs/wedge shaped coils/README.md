@@ -6,7 +6,7 @@ EAGLE is PCB design and electrical schematic software.
 User Language Programs (ULP) are scripts that are run from within EAGLE to accomplish tasks that would be tedious to do by hand or have to be repeated frequently.
 
 ## Installation
-Place it anywhere and navigate to it via EAGLE or put it in the folder with all the other ULP inside the EAGLE installation in $EAGLE_INSTALL_DIRECTORY$\examples\ulps\examples
+Place the file "WedgeShapedCoils.ulp" anywhere and navigate to it via EAGLE or put it in the folder with all the other ULP inside the EAGLE installation in $EAGLE_INSTALL_DIRECTORY$\examples\ulps\examples
 
 ## Usage
 Launch the script inside EAGLE via the ULP Button.
