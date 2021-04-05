@@ -12,7 +12,7 @@ Place it anywhere and navigate to it via EAGLE or put it in the folder with all 
 Launch the script inside EAGLE, input the desired parameters in the UI, confirm the pop-up with the number of windigs and wait for EAGLE to draw the coils.
 
 ## UI
-![middle](images/UI_Screenshot2.png)
+![large](images/UI_Screenshot2.png)
 
 ## Layout example
 ![](images/ExampleLayout.png)
