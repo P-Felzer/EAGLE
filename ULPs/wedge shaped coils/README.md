@@ -12,6 +12,9 @@ Place it anywhere and navigate to it via EAGLE or put it in the folder with all 
 Launch the script inside EAGLE via the ULP Button.
 ![](images/ULP_Button.png)
 
+Navigate to the script via the browse option or if you installed the script inside the eagle directory select it from the list.
+![](images/ULP_Select.png)
+
 Input the desired parameters in the UI.
 ![](images/UI_Screenshot2.png)
 
