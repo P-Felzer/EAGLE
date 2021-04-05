@@ -348,7 +348,7 @@ void doit(void) {
 						phiOpposite[j] = phiStart[j] - 180;
 						
 						phiEnd[j] = phiEnd[0]+(j*ARCSEGMENTSINDEGREE);
-						sprintf(nameForWire,"Wedge_%d", j+1);
+						sprintf(nameForWire,"Coil_%d", j+1);
 						
 							
 						if( !(drawOnlyOneArc && j ) ){
@@ -383,7 +383,7 @@ void doit(void) {
 						
 						phiEnd[n] = phiEnd[0]+(n*ARCSEGMENTSINDEGREE);
 				
-						sprintf(nameForWire,"Wedge_%d", n+1);
+						sprintf(nameForWire,"Coil_%d", n+1);
 
 						if(i==0)
 							placeVia(nameForWire, rStart, phiStart[n]);
@@ -449,7 +449,7 @@ void doit(void) {
 					if( !(drawOnlyOneArc && p) ){
 						phiEnd[p] = phiEnd[0]+(p*ARCSEGMENTSINDEGREE);
 			
-						sprintf(nameForWire,"Wedge_%d", p+1);
+						sprintf(nameForWire,"Coil_%d", p+1);
 						
 						printLine(nameForWire, rStart, phiStart[p], rEnd, phiEnd[p]);
 					}
@@ -476,7 +476,7 @@ void doit(void) {
 						
 						phiEnd[q] = phiEnd[0]+(q*ARCSEGMENTSINDEGREE);
 				
-						sprintf(nameForWire,"Wedge_%d", q+1);
+						sprintf(nameForWire,"Coil_%d", q+1);
 						
 						printArc(nameForWire, "CCW", rStart, phiStart[q], phiOpposite[q], phiEnd[q]);
 					}
@@ -498,7 +498,7 @@ void doit(void) {
 					if( !(drawOnlyOneArc && s) ){
 						phiEnd[s] = phiEnd[0]+(s*ARCSEGMENTSINDEGREE);
 				
-						sprintf(nameForWire,"Wedge_%d", s+1);
+						sprintf(nameForWire,"Coil_%d", s+1);
 
 						printLine(nameForWire, rStart, phiStart[s], rEnd, phiEnd[s]);
 					}
