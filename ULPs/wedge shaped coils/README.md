@@ -10,16 +10,21 @@ Place it anywhere and navigate to it via EAGLE or put it in the folder with all 
 
 ## Usage
 Launch the script inside EAGLE via the ULP Button.
+
 ![](images/ULP_Button.png)
 
 Navigate to the script via the browse option or if you installed the script inside the eagle directory select it from the list.
+
 ![](images/ULP_Select.png)
 
 Input the desired parameters in the UI.
+
 ![](images/UI_Screenshot2.png)
 
 confirm the pop-up with the number of windigs. 
+
 ![](images/WindingsConfirmation.png)
 
 Wait for EAGLE to draw the coils.
+
 ![](images/ExampleLayout.png)
