@@ -27,7 +27,7 @@ Input the desired parameters in the UI.
 
 
 
-confirm the pop-up with the number of windigs. 
+Confirm the pop-up with the number of windigs. 
 
 ![](images/WindingsConfirmation.png)
 
