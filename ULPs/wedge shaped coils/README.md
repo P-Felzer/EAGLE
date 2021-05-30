@@ -67,7 +67,7 @@ Done!
 ![](images/Example3.png)
 
 ## Known issues <a name="Known-issues"/>
-**#1**<br />
+### #1
 During DRC you get a bunch of Airwire errors.
 
 Some wires between 'Arcs' and 'Wires' aren't connecting properly.
