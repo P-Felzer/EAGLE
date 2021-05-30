@@ -45,3 +45,17 @@ Done!
 
 ## Close up of a single coil
 ![](images/ExampleLayout2.png)
+
+## Some examples
+![](images/Example1.png)
+![](images/Example2.png)
+![](images/Example3.png)
+
+## Known Issues
+**#1**
+During DRC you get a bunch of Airwire errors.
+
+Some wires between 'Arcs' and 'Wires' aren't connecting properly.
+I've created a [thread](https://forums.autodesk.com/t5/eagle-forum/wires-not-connecting-with-command-line-function-calls/td-p/9889741 "thread") in the EAGLE Forum but no replies. I've contacted the support - no reply either. ¯\_(ツ)_/¯
+
+I didn't have any problems creating CAD-files and PCBs since the wires overlap more than enough.
