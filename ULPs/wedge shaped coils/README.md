@@ -1,11 +1,26 @@
-# EAGLE
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#EAGLE">EAGLE</a></li>
+    <li><a href="#ULP">ULP</a></li>
+    <li><a href="#Installation">Installation</a></li>
+    <li><a href="#Usage">Usage</a></li>
+    <li><a href="#Close-up-of-a-single-coil">Close up of a single coil</a></li>
+    <li><a href="#Some-examples">Some examples</a></li>
+    <li><a href="#Known-issues">Known issues</a></li>
+  </ol>
+</details>
+
+
+## EAGLE  <a name="EAGLE"/>
 
 **E**asily **A**pplicable **G**raphical **L**ayout **E**ditor is a PCB design and electrical schematic software.
 
-## ULP
+## ULP  <a name="ULP"/>
 User Language Programs (ULP) are scripts that are run from within EAGLE to accomplish tasks that would be tedious to do by hand or have to be repeated frequently.
 
-## Installation
+## Installation <a name="Installation"/>
 **Option 1:**<br />
 Place the file "WedgeShapedCoils.ulp" anywhere and navigate to it via file selection dialog box 
 
@@ -15,7 +30,7 @@ Put the ULP-file in the folder with all the other ULP inside the EAGLE installat
 **Option 3:**<br />
 Put the ULP-file in the folder with all the other ULP inside the user directory in $USER$\Documents\EAGLE\ulps
 
-## Usage
+## Usage  <a name="Usage"/>
 Launch the script inside EAGLE via the ULP Button.
 ![](images/ULP_Button.png)
 <br />
@@ -43,16 +58,16 @@ Wait for EAGLE to draw the coils.<br />
 Done!
 
 
-## Close up of a single coil
+## Close up of a single coil  <a name="Close-up-of-a-single-coil"/>
 ![](images/ExampleLayout2.png)
 
-## Some examples
+## Some examples  <a name="Some-examples"/>
 ![](images/Example1.png)
 ![](images/Example2.png)
 ![](images/Example3.png)
 
-## Known Issues
-**#1**
+## Known issues <a name="Known-issues"/>
+**#1**<br />
 During DRC you get a bunch of Airwire errors.
 
 Some wires between 'Arcs' and 'Wires' aren't connecting properly.
